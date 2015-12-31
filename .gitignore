@@ -216,3 +216,8 @@ pip-log.txt
 .mr.developer.cfg
 
 _site
+
+# Sass
+.sass-cache
+sass
+config.rb

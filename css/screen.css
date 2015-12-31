@@ -1,0 +1,155 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* ============= Fonts ==============*/
+/* line 5, ../sass/_fonts.scss */
+header h1 {
+  font-family: Georgia, Serif;
+  font-size: 1.75rem;
+  text-shadow: 82px 22px 4px rgba(255, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+/* line 12, ../sass/_fonts.scss */
+header p {
+  font-size: 1.125rem;
+  line-height: 1.35;
+}
+
+/* line 20, ../sass/_fonts.scss */
+.content h2 {
+  font-family: Georgia, Serif;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 2px 1px 1px rgba(27, 18, 7, 0.73);
+  padding-bottom: 6px;
+}
+/* line 27, ../sass/_fonts.scss */
+.content p {
+  font-size: 1rem;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  word-wrap: break-word;
+  line-height: 1.35;
+}
+
+/* line 38, ../sass/_fonts.scss */
+p {
+  color: rgba(216, 171, 113, 0.91);
+  font-family: Georgia, Serif;
+  text-shadow: 0px 1px 0px rgba(156, 131, 131, 0.68);
+  letter-spacing: 1.12px;
+}
+
+/* line 44, ../sass/_fonts.scss */
+h2 {
+  color: rgba(224, 171, 46, 0.78);
+}
+
+/* line 15, ../sass/screen.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 19, ../sass/screen.scss */
+body {
+  background: #000;
+  color: #D1C32C;
+}
+
+/* line 25, ../sass/screen.scss */
+.warp {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 60px;
+}
+
+/* line 31, ../sass/screen.scss */
+.box {
+  max-width: 700px;
+  height: auto;
+  padding: 10px;
+  border: 1px solid rgba(255, 0, 0, 0.08);
+  margin: 20px auto;
+  border-radius: 5px;
+  background: rgba(255, 0, 0, 0.22);
+}
+
+/* line 41, ../sass/screen.scss */
+.header {
+  border-left: 10px solid rgba(255, 0, 0, 0.41);
+  padding-left: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* line 48, ../sass/screen.scss */
+header {
+  display: table;
+}
